@@ -59,7 +59,7 @@ Debug.Log($"Memory Usage: {performanceData.MemoryUsageMegabytes} MB");
 ```
 
 ### PerformanceData API
-The `IOSPerformanceMonitor.PerformanceData` struct provides detailed metrics about the performance of your iOS device during runtime. Below are the descriptions of each field within `IOSPerformanceMonitor.PerformanceData`:
+The [`IOSPerformanceMonitor.PerformanceData`](https://github.com/nevarok/unity-ios-performance-monitor/blob/main/unity/UnityIOSPlugin/Assets/nevarok/PerformanceMonitor/Scripts/Monitors/IOSPerformanceMonitor.cs) struct provides detailed metrics about the performance of your iOS device during runtime. Below are the descriptions of each field within [`IOSPerformanceMonitor.PerformanceData`](https://github.com/nevarok/unity-ios-performance-monitor/blob/main/unity/UnityIOSPlugin/Assets/nevarok/PerformanceMonitor/Scripts/Monitors/IOSPerformanceMonitor.cs):
 
 
 - `CpuCoresCount`: The number of CPU cores available on the device.
