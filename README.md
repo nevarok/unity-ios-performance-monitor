@@ -7,9 +7,10 @@ Optimize and track your Unity iOS application's performance metrics using Perfor
 
 ## Prerequisites
 
-- **Xcode**: Version 15+
-- **iOS**: iOS 17+
-- **Unity**: 2020.3 LTS or newer
+Tested on:
+- **Xcode**: Version 15.4
+- **iOS**: iOS 17.4
+- **Unity**: 2022.3.26f1 LTS
 
 ## Installation
 
