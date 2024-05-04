@@ -89,9 +89,7 @@ import Foundation
     }
     
     @objc public override var description: String
-    {
-        let toMgbs = 1.0 / 1024 / 1024;
-        
+    {        
         let prefix = "\nMonitorData:"
         let cpuStats = String(format: "CPU Cores: %d, CPU Usage: %.2f%%, Min CPU Usage: %.2f%%, Max CPU Usage: %.2f%%",
                               cpuCoresCount,
