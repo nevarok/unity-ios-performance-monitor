@@ -20,6 +20,7 @@
 		EDB7C9312BE3DC9A00724A82 /* GpuStatisticsFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = EDB7C92E2BE3DC9A00724A82 /* GpuStatisticsFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDB7C9322BE3DC9A00724A82 /* IOKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EDB7C92F2BE3DC9A00724A82 /* IOKit.h */; };
 		EDDEC97A2BE4BEA2006010DA /* TaskInfoTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDEC9792BE4BEA2006010DA /* TaskInfoTracker.swift */; };
+		EDF90D0A2BE5FF16003BFFE2 /* MonitorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF90D092BE5FF16003BFFE2 /* MonitorData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EDB7C92F2BE3DC9A00724A82 /* IOKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOKit.h; sourceTree = "<group>"; };
 		EDBF01012BDFF51800261152 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
 		EDDEC9792BE4BEA2006010DA /* TaskInfoTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskInfoTracker.swift; sourceTree = "<group>"; };
+		EDF90D092BE5FF16003BFFE2 /* MonitorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				ED50F0552BDEC46F0068A74A /* PerformanceMonitor.swift */,
 				ED50F05B2BDEC6B50068A74A /* PerformanceMonitorBridge.m */,
 				ED50F05D2BDEC8AD0068A74A /* PerformanceMonitorBridge.h */,
+				EDF90D092BE5FF16003BFFE2 /* MonitorData.swift */,
 			);
 			path = UnityIOSPlugin;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				ED52D2562BE509DE0064F470 /* GpuStatisticsTracker.swift in Sources */,
 				ED50F05C2BDEC6B50068A74A /* PerformanceMonitorBridge.m in Sources */,
 				EDB7C9302BE3DC9A00724A82 /* GpuStatisticsFetcher.m in Sources */,
+				EDF90D0A2BE5FF16003BFFE2 /* MonitorData.swift in Sources */,
 				ED50F0562BDEC46F0068A74A /* PerformanceMonitor.swift in Sources */,
 				ED52D2582BE5152C0064F470 /* Common.swift in Sources */,
 				EDDEC97A2BE4BEA2006010DA /* TaskInfoTracker.swift in Sources */,
