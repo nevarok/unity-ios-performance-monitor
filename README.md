@@ -85,5 +85,5 @@ Each metric provides insights that can help developers identify performance bott
 Check the `SampleScene` in the `nevarok/PerformanceMonitor/Scenes/` folder and review the `DemoPerformanceMonitor.cs` script for details. 
 
 ### Support and Contributions
-Encounter an issue or have a suggestion? Visit please visit [GitHub Issues page](https://github.com/nevarok/unity-swift-plugin/issues) to get help or contribute. Your feedback helps improve the plugin!
+Encounter an issue or have a suggestion? Visit please visit [GitHub Issues page](https://github.com/nevarok/unity-ios-performance-monitor/issues) to get help or contribute. Your feedback helps improve the plugin!
 
