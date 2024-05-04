@@ -83,7 +83,7 @@ The `IOSPerformanceMonitor.PerformanceData` struct provides detailed metrics abo
 Each metric provides insights that can help developers identify performance bottlenecks and optimize their applications accordingly.
 
 ### Examples and Further Guidance
-Check the `SampleScene` in the `nevarok/PerformanceMonitor/Scenes/` folder and review the `DemoPerformanceMonitor.cs` script for details. 
+Check the [`SampleScene`](https://github.com/nevarok/unity-ios-performance-monitor/tree/main/unity/UnityIOSPlugin/Assets/nevarok/PerformanceMonitor/Scenes) in the [`Assets/nevarok/PerformanceMonitor/Scripts/Examples`](https://github.com/nevarok/unity-ios-performance-monitor/tree/main/unity/UnityIOSPlugin/Assets/nevarok/PerformanceMonitor/Scripts/Examples) folder and review the [`DemoPerformanceMonitor.cs`](https://github.com/nevarok/unity-ios-performance-monitor/blob/main/unity/UnityIOSPlugin/Assets/nevarok/PerformanceMonitor/Scripts/Examples/DemoPerformanceMonitor.cs) script for details. 
 
 ### Support and Contributions
 Encounter an issue or have a suggestion? Visit please visit [GitHub Issues page](https://github.com/nevarok/unity-ios-performance-monitor/issues) to get help or contribute. Your feedback helps improve the plugin!
