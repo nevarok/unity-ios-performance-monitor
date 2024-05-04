@@ -1,0 +1,58 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios17.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name UnityIOSPlugin
+import Foundation
+import Metal
+import Swift
+@_exported import UnityIOSPlugin
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc public class MonitorData : ObjectiveC.NSObject {
+  @objc public var cpuCoresCount: Swift.Int
+  @objc public var cpuUsage: Swift.Double
+  @objc public var minCpuUsage: Swift.Double
+  @objc public var maxCpuUsage: Swift.Double
+  @objc public var memoryUsage: Swift.Double
+  @objc public var minMemoryUsage: Swift.Double
+  @objc public var maxMemoryUsage: Swift.Double
+  @objc public var inUseSystemMemory: Swift.Int64
+  @objc public var allocatedSystemMemory: Swift.Int64
+  @objc public var tiledSceneBytes: Swift.Int64
+  @objc public var allocatedPBSize: Swift.Int64
+  @objc public var tilerUtilization: Swift.Int
+  @objc public var rendererUtilization: Swift.Int
+  @objc public var deviceUtilization: Swift.Int
+  @objc public var splitSceneCount: Swift.Int
+  @objc public var recoveryCount: Swift.Int
+  @objc public var minInUseSystemMemory: Swift.Int64
+  @objc public var minAllocatedSystemMemory: Swift.Int64
+  @objc public var minTiledSceneBytes: Swift.Int64
+  @objc public var minAllocatedPBSize: Swift.Int64
+  @objc public var minTilerUtilization: Swift.Int
+  @objc public var minRendererUtilization: Swift.Int
+  @objc public var minDeviceUtilization: Swift.Int
+  @objc public var minSplitSceneCount: Swift.Int
+  @objc public var minRecoveryCount: Swift.Int
+  @objc public var maxInUseSystemMemory: Swift.Int64
+  @objc public var maxAllocatedSystemMemory: Swift.Int64
+  @objc public var maxTiledSceneBytes: Swift.Int64
+  @objc public var maxAllocatedPBSize: Swift.Int64
+  @objc public var maxTilerUtilization: Swift.Int
+  @objc public var maxRendererUtilization: Swift.Int
+  @objc public var maxDeviceUtilization: Swift.Int
+  @objc public var maxSplitSceneCount: Swift.Int
+  @objc public var maxRecoveryCount: Swift.Int
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+  public func reset()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class PerformanceMonitor : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc public func startTracking()
+  @objc public func stopTracking() -> UnityIOSPlugin.MonitorData
+  @objc deinit
+}

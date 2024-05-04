@@ -1,0 +1,3795 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnityIOSPlugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnityIOSPlugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Metal",
+        "printedName": "Metal",
+        "declKind": "Import",
+        "moduleName": "UnityIOSPlugin"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MonitorData",
+        "printedName": "MonitorData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cpuCoresCount",
+            "printedName": "cpuCoresCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)cpuCoresCount",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC13cpuCoresCountSivp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)cpuCoresCount",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC13cpuCoresCountSivg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setCpuCoresCount:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC13cpuCoresCountSivs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC13cpuCoresCountSivM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC13cpuCoresCountSivM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cpuUsage",
+            "printedName": "cpuUsage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)cpuUsage",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC8cpuUsageSdvp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)cpuUsage",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC8cpuUsageSdvg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setCpuUsage:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC8cpuUsageSdvs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC8cpuUsageSdvM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC8cpuUsageSdvM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minCpuUsage",
+            "printedName": "minCpuUsage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)minCpuUsage",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC11minCpuUsageSdvp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)minCpuUsage",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC11minCpuUsageSdvg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMinCpuUsage:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC11minCpuUsageSdvs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC11minCpuUsageSdvM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC11minCpuUsageSdvM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxCpuUsage",
+            "printedName": "maxCpuUsage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)maxCpuUsage",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC11maxCpuUsageSdvp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)maxCpuUsage",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC11maxCpuUsageSdvg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMaxCpuUsage:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC11maxCpuUsageSdvs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC11maxCpuUsageSdvM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC11maxCpuUsageSdvM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "memoryUsage",
+            "printedName": "memoryUsage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)memoryUsage",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC11memoryUsageSdvp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)memoryUsage",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC11memoryUsageSdvg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMemoryUsage:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC11memoryUsageSdvs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC11memoryUsageSdvM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC11memoryUsageSdvM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minMemoryUsage",
+            "printedName": "minMemoryUsage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)minMemoryUsage",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC14minMemoryUsageSdvp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)minMemoryUsage",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC14minMemoryUsageSdvg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMinMemoryUsage:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC14minMemoryUsageSdvs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC14minMemoryUsageSdvM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC14minMemoryUsageSdvM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxMemoryUsage",
+            "printedName": "maxMemoryUsage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)maxMemoryUsage",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC14maxMemoryUsageSdvp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)maxMemoryUsage",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC14maxMemoryUsageSdvg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMaxMemoryUsage:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC14maxMemoryUsageSdvs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC14maxMemoryUsageSdvM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC14maxMemoryUsageSdvM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inUseSystemMemory",
+            "printedName": "inUseSystemMemory",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)inUseSystemMemory",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC17inUseSystemMemorys5Int64Vvp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)inUseSystemMemory",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC17inUseSystemMemorys5Int64Vvg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setInUseSystemMemory:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC17inUseSystemMemorys5Int64Vvs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC17inUseSystemMemorys5Int64VvM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC17inUseSystemMemorys5Int64VvM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allocatedSystemMemory",
+            "printedName": "allocatedSystemMemory",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)allocatedSystemMemory",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC21allocatedSystemMemorys5Int64Vvp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)allocatedSystemMemory",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC21allocatedSystemMemorys5Int64Vvg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setAllocatedSystemMemory:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC21allocatedSystemMemorys5Int64Vvs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC21allocatedSystemMemorys5Int64VvM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC21allocatedSystemMemorys5Int64VvM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tiledSceneBytes",
+            "printedName": "tiledSceneBytes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)tiledSceneBytes",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC15tiledSceneBytess5Int64Vvp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)tiledSceneBytes",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC15tiledSceneBytess5Int64Vvg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setTiledSceneBytes:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC15tiledSceneBytess5Int64Vvs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC15tiledSceneBytess5Int64VvM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC15tiledSceneBytess5Int64VvM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allocatedPBSize",
+            "printedName": "allocatedPBSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)allocatedPBSize",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC15allocatedPBSizes5Int64Vvp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)allocatedPBSize",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC15allocatedPBSizes5Int64Vvg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setAllocatedPBSize:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC15allocatedPBSizes5Int64Vvs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC15allocatedPBSizes5Int64VvM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC15allocatedPBSizes5Int64VvM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tilerUtilization",
+            "printedName": "tilerUtilization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)tilerUtilization",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC16tilerUtilizationSivp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)tilerUtilization",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC16tilerUtilizationSivg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setTilerUtilization:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC16tilerUtilizationSivs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC16tilerUtilizationSivM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC16tilerUtilizationSivM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rendererUtilization",
+            "printedName": "rendererUtilization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)rendererUtilization",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC19rendererUtilizationSivp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)rendererUtilization",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC19rendererUtilizationSivg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setRendererUtilization:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC19rendererUtilizationSivs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC19rendererUtilizationSivM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC19rendererUtilizationSivM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceUtilization",
+            "printedName": "deviceUtilization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)deviceUtilization",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC17deviceUtilizationSivp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)deviceUtilization",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC17deviceUtilizationSivg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setDeviceUtilization:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC17deviceUtilizationSivs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC17deviceUtilizationSivM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC17deviceUtilizationSivM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "splitSceneCount",
+            "printedName": "splitSceneCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)splitSceneCount",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC15splitSceneCountSivp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)splitSceneCount",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC15splitSceneCountSivg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setSplitSceneCount:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC15splitSceneCountSivs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC15splitSceneCountSivM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC15splitSceneCountSivM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "recoveryCount",
+            "printedName": "recoveryCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)recoveryCount",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC13recoveryCountSivp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)recoveryCount",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC13recoveryCountSivg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setRecoveryCount:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC13recoveryCountSivs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC13recoveryCountSivM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC13recoveryCountSivM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minInUseSystemMemory",
+            "printedName": "minInUseSystemMemory",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)minInUseSystemMemory",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC20minInUseSystemMemorys5Int64Vvp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)minInUseSystemMemory",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC20minInUseSystemMemorys5Int64Vvg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMinInUseSystemMemory:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC20minInUseSystemMemorys5Int64Vvs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC20minInUseSystemMemorys5Int64VvM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC20minInUseSystemMemorys5Int64VvM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minAllocatedSystemMemory",
+            "printedName": "minAllocatedSystemMemory",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)minAllocatedSystemMemory",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC24minAllocatedSystemMemorys5Int64Vvp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)minAllocatedSystemMemory",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC24minAllocatedSystemMemorys5Int64Vvg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMinAllocatedSystemMemory:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC24minAllocatedSystemMemorys5Int64Vvs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC24minAllocatedSystemMemorys5Int64VvM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC24minAllocatedSystemMemorys5Int64VvM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minTiledSceneBytes",
+            "printedName": "minTiledSceneBytes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)minTiledSceneBytes",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC18minTiledSceneBytess5Int64Vvp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)minTiledSceneBytes",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC18minTiledSceneBytess5Int64Vvg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMinTiledSceneBytes:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC18minTiledSceneBytess5Int64Vvs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC18minTiledSceneBytess5Int64VvM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC18minTiledSceneBytess5Int64VvM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minAllocatedPBSize",
+            "printedName": "minAllocatedPBSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)minAllocatedPBSize",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC18minAllocatedPBSizes5Int64Vvp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)minAllocatedPBSize",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC18minAllocatedPBSizes5Int64Vvg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMinAllocatedPBSize:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC18minAllocatedPBSizes5Int64Vvs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC18minAllocatedPBSizes5Int64VvM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC18minAllocatedPBSizes5Int64VvM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minTilerUtilization",
+            "printedName": "minTilerUtilization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)minTilerUtilization",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC19minTilerUtilizationSivp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)minTilerUtilization",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC19minTilerUtilizationSivg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMinTilerUtilization:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC19minTilerUtilizationSivs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC19minTilerUtilizationSivM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC19minTilerUtilizationSivM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minRendererUtilization",
+            "printedName": "minRendererUtilization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)minRendererUtilization",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC22minRendererUtilizationSivp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)minRendererUtilization",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC22minRendererUtilizationSivg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMinRendererUtilization:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC22minRendererUtilizationSivs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC22minRendererUtilizationSivM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC22minRendererUtilizationSivM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minDeviceUtilization",
+            "printedName": "minDeviceUtilization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)minDeviceUtilization",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC20minDeviceUtilizationSivp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)minDeviceUtilization",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC20minDeviceUtilizationSivg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMinDeviceUtilization:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC20minDeviceUtilizationSivs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC20minDeviceUtilizationSivM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC20minDeviceUtilizationSivM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minSplitSceneCount",
+            "printedName": "minSplitSceneCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)minSplitSceneCount",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC18minSplitSceneCountSivp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)minSplitSceneCount",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC18minSplitSceneCountSivg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMinSplitSceneCount:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC18minSplitSceneCountSivs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC18minSplitSceneCountSivM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC18minSplitSceneCountSivM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minRecoveryCount",
+            "printedName": "minRecoveryCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)minRecoveryCount",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC16minRecoveryCountSivp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)minRecoveryCount",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC16minRecoveryCountSivg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMinRecoveryCount:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC16minRecoveryCountSivs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC16minRecoveryCountSivM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC16minRecoveryCountSivM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxInUseSystemMemory",
+            "printedName": "maxInUseSystemMemory",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)maxInUseSystemMemory",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC20maxInUseSystemMemorys5Int64Vvp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)maxInUseSystemMemory",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC20maxInUseSystemMemorys5Int64Vvg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMaxInUseSystemMemory:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC20maxInUseSystemMemorys5Int64Vvs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC20maxInUseSystemMemorys5Int64VvM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC20maxInUseSystemMemorys5Int64VvM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxAllocatedSystemMemory",
+            "printedName": "maxAllocatedSystemMemory",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)maxAllocatedSystemMemory",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC24maxAllocatedSystemMemorys5Int64Vvp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)maxAllocatedSystemMemory",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC24maxAllocatedSystemMemorys5Int64Vvg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMaxAllocatedSystemMemory:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC24maxAllocatedSystemMemorys5Int64Vvs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC24maxAllocatedSystemMemorys5Int64VvM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC24maxAllocatedSystemMemorys5Int64VvM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxTiledSceneBytes",
+            "printedName": "maxTiledSceneBytes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)maxTiledSceneBytes",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC18maxTiledSceneBytess5Int64Vvp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)maxTiledSceneBytes",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC18maxTiledSceneBytess5Int64Vvg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMaxTiledSceneBytes:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC18maxTiledSceneBytess5Int64Vvs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC18maxTiledSceneBytess5Int64VvM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC18maxTiledSceneBytess5Int64VvM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxAllocatedPBSize",
+            "printedName": "maxAllocatedPBSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)maxAllocatedPBSize",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC18maxAllocatedPBSizes5Int64Vvp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)maxAllocatedPBSize",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC18maxAllocatedPBSizes5Int64Vvg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMaxAllocatedPBSize:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC18maxAllocatedPBSizes5Int64Vvs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC18maxAllocatedPBSizes5Int64VvM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC18maxAllocatedPBSizes5Int64VvM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxTilerUtilization",
+            "printedName": "maxTilerUtilization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)maxTilerUtilization",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC19maxTilerUtilizationSivp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)maxTilerUtilization",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC19maxTilerUtilizationSivg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMaxTilerUtilization:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC19maxTilerUtilizationSivs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC19maxTilerUtilizationSivM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC19maxTilerUtilizationSivM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxRendererUtilization",
+            "printedName": "maxRendererUtilization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)maxRendererUtilization",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC22maxRendererUtilizationSivp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)maxRendererUtilization",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC22maxRendererUtilizationSivg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMaxRendererUtilization:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC22maxRendererUtilizationSivs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC22maxRendererUtilizationSivM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC22maxRendererUtilizationSivM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxDeviceUtilization",
+            "printedName": "maxDeviceUtilization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)maxDeviceUtilization",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC20maxDeviceUtilizationSivp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)maxDeviceUtilization",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC20maxDeviceUtilizationSivg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMaxDeviceUtilization:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC20maxDeviceUtilizationSivs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC20maxDeviceUtilizationSivM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC20maxDeviceUtilizationSivM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxSplitSceneCount",
+            "printedName": "maxSplitSceneCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)maxSplitSceneCount",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC18maxSplitSceneCountSivp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)maxSplitSceneCount",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC18maxSplitSceneCountSivg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMaxSplitSceneCount:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC18maxSplitSceneCountSivs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC18maxSplitSceneCountSivM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC18maxSplitSceneCountSivM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxRecoveryCount",
+            "printedName": "maxRecoveryCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)maxRecoveryCount",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC16maxRecoveryCountSivp",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)maxRecoveryCount",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC16maxRecoveryCountSivg",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)setMaxRecoveryCount:",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC16maxRecoveryCountSivs",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14UnityIOSPlugin11MonitorDataC16maxRecoveryCountSivM",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC16maxRecoveryCountSivM",
+                "moduleName": "UnityIOSPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(py)description",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC11descriptionSSvp",
+            "moduleName": "UnityIOSPlugin",
+            "overriding": true,
+            "objc_name": "description",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)description",
+                "mangledName": "$s14UnityIOSPlugin11MonitorDataC11descriptionSSvg",
+                "moduleName": "UnityIOSPlugin",
+                "overriding": true,
+                "objc_name": "description",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14UnityIOSPlugin11MonitorDataC5resetyyF",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataC5resetyyF",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MonitorData",
+                "printedName": "UnityIOSPlugin.MonitorData",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData(im)init",
+            "mangledName": "$s14UnityIOSPlugin11MonitorDataCACycfc",
+            "moduleName": "UnityIOSPlugin",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData",
+        "mangledName": "$s14UnityIOSPlugin11MonitorDataC",
+        "moduleName": "UnityIOSPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PerformanceMonitor",
+        "printedName": "PerformanceMonitor",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PerformanceMonitor",
+                "printedName": "UnityIOSPlugin.PerformanceMonitor",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)PerformanceMonitor"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)PerformanceMonitor(im)init",
+            "mangledName": "$s14UnityIOSPlugin18PerformanceMonitorCACycfc",
+            "moduleName": "UnityIOSPlugin",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "startTracking",
+            "printedName": "startTracking()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)PerformanceMonitor(im)startTracking",
+            "mangledName": "$s14UnityIOSPlugin18PerformanceMonitorC13startTrackingyyF",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopTracking",
+            "printedName": "stopTracking()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MonitorData",
+                "printedName": "UnityIOSPlugin.MonitorData",
+                "usr": "c:@M@UnityIOSPlugin@objc(cs)MonitorData"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UnityIOSPlugin@objc(cs)PerformanceMonitor(im)stopTracking",
+            "mangledName": "$s14UnityIOSPlugin18PerformanceMonitorC12stopTrackingAA0D4DataCyF",
+            "moduleName": "UnityIOSPlugin",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UnityIOSPlugin@objc(cs)PerformanceMonitor",
+        "mangledName": "$s14UnityIOSPlugin18PerformanceMonitorC",
+        "moduleName": "UnityIOSPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnityIOSPlugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UnityIOSPlugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/Trackers\/GpuStatisticsTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 218,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 220,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "FloatLiteral",
+      "offset": 262,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "FloatLiteral",
+      "offset": 309,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "FloatLiteral",
+      "offset": 356,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "FloatLiteral",
+      "offset": 403,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "FloatLiteral",
+      "offset": 453,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "FloatLiteral",
+      "offset": 503,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 556,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 610,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 658,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 706,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 753,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 803,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 851,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 897,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 941,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 995,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1052,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1103,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1154,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1204,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1257,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1308,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1357,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1404,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1458,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1515,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1566,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1617,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1667,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1720,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1771,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1820,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1867,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "FloatLiteral",
+      "offset": 6079,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/PerformanceMonitor.swift",
+      "kind": "FloatLiteral",
+      "offset": 6085,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/kyrylo\/repo\/unity-swift-plugin\/swift\/UnityIOSPlugin\/UnityIOSPlugin\/Trackers\/TaskInfoTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}
