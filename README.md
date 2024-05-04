@@ -14,7 +14,7 @@ Tested on:
 
 ## Installation
 
-1. **Download** the `PerformanceMonitor.unitypackage` from the GitHub releases section.
+1. **Download** the `PerformanceMonitor.unitypackage` from the [GitHub releases section](https://github.com/nevarok/unity-ios-performance-monitor/releases).
 2. **Import** the package into your Unity project via `Assets > Import Package > Custom Package`.
 
 ## Quick Start Guide
