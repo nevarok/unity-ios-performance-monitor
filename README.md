@@ -20,7 +20,7 @@ Tested on:
 ## Quick Start Guide
 
 <div align="center">
-  <a href="ttps://youtu.be/TavN-Bpjo5I"><img src="http://img.youtube.com/vi/TavN-Bpjo5I/0.jpg" alt="Unity iOS Performance Monitor Showcase"></a>
+  <a href="https://youtu.be/TavN-Bpjo5I"><img src="http://img.youtube.com/vi/TavN-Bpjo5I/0.jpg" alt="Unity iOS Performance Monitor Showcase"></a>
 </div>
 
 ### Setup the Monitor
