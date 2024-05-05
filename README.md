@@ -83,8 +83,8 @@ The [`IOSPerformanceMonitor.PerformanceData`](https://github.com/nevarok/unity-i
 Each metric provides insights that can help developers identify performance bottlenecks and optimize their applications accordingly.
 
 ### Examples and Further Guidance
-Check the [`SampleScene`](https://github.com/nevarok/unity-ios-performance-monitor/tree/main/unity/UnityIOSPlugin/Assets/nevarok/PerformanceMonitor/Scenes) in the [`Assets/nevarok/PerformanceMonitor/Scripts/Examples`](https://github.com/nevarok/unity-ios-performance-monitor/tree/main/unity/UnityIOSPlugin/Assets/nevarok/PerformanceMonitor/Scripts/Examples) folder and review the [`DemoPerformanceMonitor.cs`](https://github.com/nevarok/unity-ios-performance-monitor/blob/main/unity/UnityIOSPlugin/Assets/nevarok/PerformanceMonitor/Scripts/Examples/DemoPerformanceMonitor.cs) script for detailed demonstration. 
+Check the [`SampleScene`](https://github.com/nevarok/unity-ios-performance-monitor/tree/main/unity/UnityIOSPlugin/Assets/nevarok/PerformanceMonitor/Scenes). In the [`Assets/nevarok/PerformanceMonitor/Scripts/Examples`](https://github.com/nevarok/unity-ios-performance-monitor/tree/main/unity/UnityIOSPlugin/Assets/nevarok/PerformanceMonitor/Scripts/Examples) folder review the [`DemoPerformanceMonitor.cs`](https://github.com/nevarok/unity-ios-performance-monitor/blob/main/unity/UnityIOSPlugin/Assets/nevarok/PerformanceMonitor/Scripts/Examples/DemoPerformanceMonitor.cs) script for detailed demonstration. 
 
 ### Support and Contributions
-Encounter an issue or have a suggestion? Visit please visit [GitHub Issues page](https://github.com/nevarok/unity-ios-performance-monitor/issues) to get help or contribute. Your feedback helps improve the plugin!
+Encounter an issue or have a suggestion? Please visit [GitHub Issues page](https://github.com/nevarok/unity-ios-performance-monitor/issues) to get help or contribute. Your feedback helps improve the plugin!
 
