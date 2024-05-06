@@ -63,7 +63,7 @@ The [`IOSPerformanceMonitor.PerformanceData`](https://github.com/nevarok/unity-i
 
 
 - `CpuCoresCount`: The number of CPU cores available on the device.
-- `CpuUsagePercents`: The current CPU usage as a percentage of total capacity.
+- `CpuUsagePercents`: The current CPU usage as a percentage of total capacity per core. (Example: 6 cores results in 600.0% max)
 - `MinCpuUsagePercents`: The minimum CPU usage recorded since tracking began.
 - `MaxCpuUsagePercents`: The maximum CPU usage recorded since tracking began.
 - `MemoryUsageMegabytes`: The current RAM usage in megabytes.
